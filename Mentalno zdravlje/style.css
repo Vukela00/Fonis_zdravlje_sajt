@@ -160,5 +160,43 @@ background-size: cover;}
   .ml1 .line1 { top: 0; }
   .ml1 .line2 { bottom: 0; }
 
-
+  .nav{
+    height: 65px;
+    background-color: rgba(243, 164, 74, 0.521);
+    /* position: sticky; */
+    top: 0;
+    /* float: left; */
+    width: 100%;
+    border-bottom: 2px solid rgba(219, 126, 4, 0.904);
+}
+.nav ul{
+    list-style-type: none;
+    float: right;
+}
+.nav .naziv{
+    float: left;
+    width: 40%; 
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 65px;
+    font-family: cursive;
+}
+.nav ul li {
+    float: right;
+    
+    padding: 0 20px;
+}
+.nav ul li a{
+    color: white;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
 
