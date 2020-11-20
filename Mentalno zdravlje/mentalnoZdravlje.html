@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+      //Hiding the image using regular JavaScript.
+      document.getElementById('my_image').style.display = 'none';
+  </script>
+    <title>Mentalno Zdravlje</title>
+</head>
+<body>
+<div id="naslov">MENTALNO ZDRAVLJE
+</div>
+<div id="wrap">
+    <div id="accordion">
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191210182014/What-is-Bipolar-Disorder-and-How-Can-Artificial-Intelligence-Help-in-Detecting-it.png" alt="" width="1000" height="1000">
+        <div class="card text-white bg-success mb-3" style="max-width: 30rem;">
+          <div class="card-header"><b>Manija</b></div>
+          <div class="card-body">
+            <h5 class="card-title">Povišeno raspoloženje koje nije adekvatno spoljnjom uzroku, praćeno poremećenim ponašanjem naziva se manija.
+              Manija je endogena psihoza (duševno oboljenje, psihički poremećaj). Ređe se javlja samostalno, 
+              kroz kraće ili duže epizode.Najčešće je  udružena sa naizmeničnim pojavljivanjem depresije,
+               kada se javlja u obliku manično-depresivne psihoze, pa se tada naziva bipolarni afektivni poremećaj.</h5>
+            <p class="card-text">
+               </p>
+          </div>
+        </div>
+        <img src="https://images.pexels.com/photos/551588/pexels-photo-551588.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+        <div class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+          <div class="card-header"><b>Stres</b></div>
+          <div class="card-body">
+            <h5 class="card-title">Stres je psihička i fiziološka reakcija osobe na stresor(e), stimuluse/draži različitog porekla. Obično ih delimo na unutrašnje i spoljašnje.
+              Unutrašnji stresori su naše misli, osećanja ili telesne senzacije (trnjenje ruku, lupanje srca, kratak dah, glavobolja…), 
+              a spoljašnji brojni i raznoliki (problemi na poslu, u partnerskom odnosu, egzistencijalni problemi, rokovi, konflikti, kvarovi, saobraćajna gužva…).
+              Stres se deli na:
+  
+              1.     Distres. To je stres protiv koga se borimo. Ukoliko traje kratko dovodi do psihičke patnje, a dugotrajnim delovanjem ili kraćim, a velikim intenzitetom daje štetne posledice po fizičko i psihičko zdravlje (“osedeo je / propao preko noći“).
+              
+              2.     Eustres. To je koristan stres koji nas motiviše i podstiče na ostvarivanje ciljeva.</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <img src="https://images.pexels.com/photos/2865901/pexels-photo-2865901.jpeg?cs=srgb&dl=pexels-keenan-constance-2865901.jpg&fm=jpg" alt="">
+        <div class="card text-white bg-info mb-3" style="max-width: 30rem;">
+          <div class="card-header"><b>Anksioznost</b></div>
+          <div class="card-body">
+            <h5 class="card-title"> Svako ponekad ima osećaj nemira, strepnje, brige, straha i ovo je normalna, svakodnevna emocija. 
+              Anksiozni poremećaji su drugačiji od normalne zabrinutosti. Oni su grupa smetnji koje vas onemogućavaju da se borite sa životnim, svakodnevnim teškoćama i problemima.
+              Za ljude koji pate od anskioznosti strah i briga su konstantni, neprekidni, preplavljujući. 
+              Anksioznost ih parališe i dovodi u situaciju bespomoćnosti. Usled anksioznosti opadaju produktivnost i kreativnost, niži je nivo energije, kao i kvalitet života.Karakteristični simptomi su konstantan nerealan strah,
+              nesanica, napetost, hladni, vlažni, utrnuli dlanovi i stopala, kratak dah, preskakanje srca, suva usta, mučnina, napeti mišići vrata, ramena i leđa, vrtoglavica.</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div id="desno">
+        <p>
+          Prema Svetskoj zdravstvenoj organizaciji (SZO), mentalno zdravlje je „stanje blagostanja u kome osoba realizuje sopstvene kapacitete, u kome može da izlazi na kraj sa uobičajenim životnim stresorima, da radi produktivno i ispunjeno, kao i da je sposobna da doprinosi sebi i svojoj zajednici“. Ukratko, kako je još Frojd rekao, mentalno zdrava osoba je ona koja je u stanju da voli i da radi. Mentalno zdravlje predstavlja osnovu za naše emocije, mišljenje, komunikaciju, učenje, psihološku otpornost i samopouzdanje. Ono je ključ za funkcionisanje na privatnom, profesionalnom i socijalnom planu. Zahvaljujući njemu, u stanju smo da se adaptiramo na promene i da izlazimo na kraj sa nedaćama.
+        </p>
+        <div id="raspolozenje"><h2>Kakvog si raspoloženja danas?</h2></div>
+       <div id="buttonGroup">
+        <div class="button" id="button1">
+         <button type="button" class="btn btn-success btn-lg btn-radius">Ravnodušan</button>
+        </div>
+        <div class="button" id="button2">
+          <button type="button" class="btn btn-warning btn-lg btn-radius">Srećan</button>
+        </div>
+        <div class="button" id="button3">
+          <button type="button" class="btn btn-light btn-lg btn-radius">Tužan</button>
+        </div>
+      </div> 
+      <div id="slika">
+       <div id="grupa1">
+        <img src="https://www.wikihow.com/images/thumb/e/e1/Be-Happy-Step-5-Version-4.jpg/v4-460px-Be-Happy-Step-5-Version-4.jpg.webp" alt="" id="slika1">
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Ovo nije samo još jedan običan dan. Ovo je nova šansa da počnete da ostvarujete svoje snove.</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+      </div>
+        <script>
+          document.getElementById('grupa1').style.display = 'none';
+      </script>
+      <div id="grupa2">
+        <img src="https://2.bp.blogspot.com/-mpOPZAY7ssk/Uu6Z0uRUw9I/AAAAAAAAIvI/LgwyUqFno6M/s1600/happiness+share2.jpg" alt="" id="slika2"  >
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Uzmeš od sebe, daš drugom i imate oboje!</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+      </div>
+        <script>
+          document.getElementById('grupa2').style.display = 'none';
+      </script>
+      <div id="grupa3">
+        <img src="https://www.readersdigest.ca/wp-content/uploads/2018/04/IE180405A-happy1.jpg" alt="" id="slika3" >
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Tuga je u prolazu zato je nemoj zadržavati, pusti je da ide dalje</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+      </div>
+        <script>
+          document.getElementById('grupa3').style.display = 'none';
+      </script>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
