@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(250, 234, 204);
+}
+.nav{
+    height: 65px;
+    background-color: rgba(243, 164, 74, 0.521);
+    position: sticky;
+    top: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid rgba(219, 126, 4, 0.904);
+}
+.nav ul{
+    list-style-type: none;
+    float: right;
+}
+.nav .naziv{
+    float: left;
+    width: 40%; 
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 65px;
+    font-family: cursive;
+}
+.nav ul li {
+    float: right;
+    
+    padding: 0 20px;
+}
+.nav ul li a{
+    color: white;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) ,url(trcanje2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    border-bottom: 6px solid rgb(219, 126, 4);
+
+}
+.banner a{
+    display: block;
+    color: white;
+    font-size: 22px;
+    border: 2px solid orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 180px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.banner a:hover{
+    background-color: rgba(235, 180, 79, 0.61);
+}
+.banner h1{
+    padding: 30vh 0 40px 0;
+    font-size:50px;
+    font-family: cursive;
+}
+.Tekst{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 20px;
+    border: 6px solid  rgb(219, 126, 4);
+    border-radius: 20px;
+    background-color: wheat;
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+.Tekst2{
+    
+    height: 100%;
+    width: 100%;
+}
+.Tekst2 .card{
+    background-color: wheat;
+    height: 600px;
+    width: calc((100% - 400px) / 3);
+    border: 6px solid rgb(219, 126, 4);
+    border-radius: 20px;
+    float: left;
+    font-size: 22px;
+    padding-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+
+.Tekst2 .card:first-child{
+    margin-left: 100px;
+}
+
+
+.Tekst2 .card .nabr {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.Tekst2 .card .nabr .nbr{
+    margin-left: 30px;
+}
+.Tekst2 .card h3{
+    font-family: cursive;
+    padding-top: 10px;
+
+}
+.Tekst2 .boze{
+    height: 600px;
+}
+.Tekst2 .footer{
+    height: 60px;
+    background-color:rgb(243, 164, 74) ;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    margin-top: 70px;
+    line-height: 60px;
+    border-top: 2px solid  rgb(219, 126, 4);
+   
+}
+.Tekst{
+    padding-left: 10px;
+}

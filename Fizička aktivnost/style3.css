@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pozadina.jpg);
+    font-family: sans-serif;
+}
+.nav{
+    height: 65px;
+    background-color: rgba(243, 164, 74, 0.521);
+    position: sticky;
+    top: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid rgba(219, 126, 4, 0.904);
+}
+.nav ul{
+    list-style-type: none;
+    float: right;
+}
+.nav .naziv{
+    float: left;
+    width: 40%; 
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 65px;
+    font-family: cursive;
+}
+.nav ul li {
+    float: right;
+    
+    padding: 0 20px;
+}
+.nav ul li a{
+    color: white;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase; 
+    }  
+.nav ul li a:hover{
+        text-decoration: underline;
+    }
+.card{
+    background-color: wheat;
+    height: 800px;
+    width: 800px;
+    border: 6px solid rgb(219, 126, 4);
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin: 0 auto 50px auto;
+        
+    }
+.card .slika {
+    height: 400px;
+    width: 700px;
+    
+    border: 2px solid rgba(219, 126, 4, 0.904);
+    margin: 50px auto 0 15px;
+    }
+    
+.card .naslov{
+    font-family: cursive;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 5px
+    
+    }
+
+.card .tekst {
+    text-align: justify;
+}
+
+.card .tekst a{
+    text-align: left;
+}
