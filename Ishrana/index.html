@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ishrana.css" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Ishrana</title>
+    <script>
+        function bmi(){
+            var Visina=parseFloat(document.getElementById("v").value)
+            var Tezina=parseFloat(document.getElementById("t").value)
+            var bmi=Tezina/(Visina*Visina);
+            var nesto=document.getElementById("index")
+            nesto.textContent=bmi.toFixed(2);
+            
+
+
+        }
+    </script>
+   <style>
+        .toggler { width: 400px; height: 330px; position: relative; }
+        #button { padding: .5em 1em; text-decoration: none;width: 150px; height: 70px; background-color: yellow;}
+        #effect { width: 640px; height: 326px; padding: 0.4em; position: relative; background: #fff; }
+        #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+      </style>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        var state = true;
+        $( "#button" ).on( "click", function() {
+          if ( state ) {
+            $( "#effect" ).animate({
+              backgroundColor: "#fffacd",
+              color: "000",
+              width: 600
+            }, 1000 );
+          } else {
+            $( "#effect" ).animate({
+              backgroundColor: "#fffacd",
+              color: "#000",
+              width: 440
+            }, 1000 );
+          }
+          state = !state;
+        });
+      } );
+      </script>
+    
+</head>
+<body>
+    
+    <div class="nav">
+        <h1>Zdrava ishrana</h1>    
+        <br>
+        <ul>
+            <li><a href="napici.html">NAPICI</a></li>
+            <li><a href="supe.html">SUPE/CORBE</a></li>
+            <li><a href="dorucak.html">DORUČAK</a></li>
+            <li><a href="rucak.html">RUCAK</a></li>
+            <li><a href="uzina.html">UZINA</a></li>
+            <li><a href="vecera.html">VECERA</a></li>
+            <li><a href="dezerti.html">DEZERTI</a></li>            
+        </ul>
+    </div>
+   
+   <!-- <div id="div0">
+        <img src="zdravo.jpg" width="550px" height="326px">
+    </div>
+--><div id="div2">
+    <form >
+        <b>BMI kalkulator</b><br>
+        <br>
+        Visina:<input type="text" id="v"><br>
+        <br>
+        Tezina:<input type="text" id="t"><br>
+        <br>
+        <input type="button" value="Izracunaj" onclick="bmi()" width="200px" height="200px">  
+        <h2 class="text-input">BMI JE: 
+           <b id="index"></b></h2>
+        <br>
+    </form>
+    <table border="1">
+        <tr>
+            <th>Vrednost</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td>Do 15</td>
+            <td>Anoreksican<td>
+        </tr>
+        <tr>
+            <td>Od 15 do 18.5</td>
+            <td>Mrsav<td>
+        </tr>
+        <tr>
+            <td>Od 18.5 do 25</td>
+            <td>Normalan<td>
+        </tr>
+        <tr>
+            <td>Od 25 do 30</td>
+            <td>Debeo<td>
+        </tr>
+        <tr>
+            <td>Vise od 30</td>
+            <td>Gojazan<td>
+        </tr>
+    </table>
+   
+</div>
+
+    <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3  style="color: green;" class="ui-widget-header ui-corner-all">Sta podrazumeva zdrava ishrana?</h3>
+          <p>
+            Zdrava ishrana je baza zdravog života. Ukoliko ste nekada u životu primenjivali određene zdrave  navike zarad boljeg osećaja u organizmu, pri tom ne pazeći šta jedete, onda ste sasvim 
+        sigurno shvatili kako  nedostatak pravilne ishrane ne može baš ništa da nadomesti.
+        Ali, redovno treniram, spavam osam sati dnevno…?
+        Ustvari, nijedan trening nema efekta ukoliko posle njega jedete nezdravo, a redovno spavanje koje se ističe kao vrlo važno za celokupno zdravlje vam neće
+         pružiti svežinu u licu i odmoran osećaj ako nedostaju vitamini koji se unose isključivo kroz zdravu ishranu.
+          </p>
+          <button id="button" class="ui-state-default ui-corner-all" border="1" ><b>Klikni me!</b></button>
+          
+           
+        
+        </div>
+      </div>
+      
+   
+
+
+
+
+</body>
+</html>
