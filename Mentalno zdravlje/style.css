@@ -52,7 +52,7 @@
     width: 50%;
      flex:1;
     margin-top: 100px;
-  
+    
 }
 
 #desno p{
@@ -68,7 +68,11 @@
     font-style: inherit;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
-    background-color: rgb(178, 216, 91);
+    text-shadow: 5px, 5px black;
+    background-color: burlywood;
+    opacity: 0.8;
+    color: whitesmoke; 
+   
 }
 
 #buttonGroup{
@@ -100,41 +104,61 @@
 #slika3{
     width: 500px;
     height: 300px;  
+    
+   
 }
+
+ 
 
 #raspolozenje{
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px black;
+    color: whitesmoke;
+    font-weight: 10px;
+    font-size: 24px;
+
 }
+
+#kartica1{
+    opacity: 0.85;
+}
+#kartica2{
+    opacity: 0.85;
+}
+#kartica3{
+    opacity: 0.85;
+
+}
+
+
 
 
 body{
   /* The image used */
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-1vrL83kM9VOuaCCy_umVPPQ6ukFXdvbRg&usqp=CAU");
-
-/* Full height */
-height: 100%;
 
 
-
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;}
+background: url("https://wallpaperaccess.com/full/423702.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-blend-mode:darken;
+}
 
 .ml1 {
     
     font-weight: 900;
     font-size: 3.3em;
     width: 500px;
-    white-space: initial;
-    
   }
   
-  .ml1 .letter {
+  .ml1 .letters{
     display: inline-block;
     line-height: 1em;
     word-break: inherit;
+    color: azure;
+    text-shadow:  5px 5px black;
   }
 
 
@@ -155,6 +179,7 @@ background-size: cover;}
     width: 100%;
     background-color: #fff;
     transform-origin: 0 0;
+    
   }
   
   .ml1 .line1 { top: 0; }
@@ -170,6 +195,7 @@ background-size: cover;}
     border-bottom: 2px solid rgba(219, 126, 4, 0.904);
 }
 .nav ul{
+    margin-left: 800px;
     list-style-type: none;
     float: right;
 }
@@ -178,6 +204,7 @@ background-size: cover;}
     width: 40%; 
     font-size: 30px;
     color: white;
+    text-shadow:3px 3px black;
     text-align: center;
     font-weight: 600;
     line-height: 65px;
@@ -189,6 +216,7 @@ background-size: cover;}
     padding: 0 20px;
 }
 .nav ul li a{
+    text-shadow:1px 1px black;
     color: white;
     line-height: 65px;
     text-decoration: none;
@@ -199,4 +227,7 @@ background-size: cover;}
 .nav ul li a:hover{
     text-decoration: underline;
 }
+
+
+
 
