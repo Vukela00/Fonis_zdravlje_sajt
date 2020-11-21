@@ -8,7 +8,16 @@
     
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Ishrana</title>
+
     <script>
         function bmi(){
             var Visina=parseFloat(document.getElementById("v").value)
@@ -21,10 +30,11 @@
 
         }
     </script>
+
    <style>
         .toggler { width: 600px; height: 700px; position: relative; }
-        #button { padding: .5em 1em; text-decoration: none;width: 150px; height: 70px; background-color: yellow;}
-        #effect { width: 800px; height: 500px; padding: 0.4em; position: relative; background: #fff; }
+        #button { padding: 1em 1em; text-decoration: none;width: 150px; height: 70px; margin-top: 2em;}
+        #effect { width: 800px; height: 500px; padding: 0.4em; position: relative; }
         #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
       </style>
       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -92,25 +102,29 @@
    <!-- <div id="div0">
         <img src="zdravo.jpg" width="550px" height="326px">
     </div>
---><div id="div2">
+--><div id="div2" style="margin-right: 50px;">
     <form >
         <b>BMI kalkulator</b><br>
         <br>
-        Visina:<input type="text" id="v"><br>
+        Visina:<input class="form-control" type="text" id="v" style="width: 200px;"><br>
         <br>
-        Tezina:<input type="text" id="t"><br>
+        Težina:<input class="form-control" type="text" id="t" style="width: 200px;"><br>
         <br>
-        <input type="button" value="Izracunaj" onclick="bmi()" width="200px" height="200px">  
+        <input class="btn btn-success" type="button" value="Izračunaj" onclick="bmi()" width="200px" height="200px">  
         <h2 class="text-input">BMI JE: 
            <b id="index"></b></h2>
         <br>
     </form>
     <div id="Daca">
-    <table border="1">
+    <table class="table table-striped">
+      <thead>
         <tr>
             <th>Vrednost</th>
             <th>Opis</th>
         </tr>
+      </thead>
+      
+      <tbody>
         <tr>
             <td>Do 15</td>
             <td>Anoreksican<td>
@@ -131,21 +145,22 @@
             <td>Vise od 30</td>
             <td>Gojazan<td>
         </tr>
+      </tbody>
     </table>
     </div>
 </div>
 
     <div class="toggler">
         <div id="effect" class="ui-widget-content ui-corner-all">
-          <h3  style="color: green;" class="ui-widget-header ui-corner-all">Sta podrazumeva zdrava ishrana?</h3>
-          <p>
+          <h3  style="color: green; margin-bottom: 2em;" class="ui-widget-header ui-corner-all">Sta podrazumeva zdrava ishrana?</h3>
+          <p style="text-align: justify;">
             Zdrava ishrana je baza zdravog života. Ukoliko ste nekada u životu primenjivali određene zdrave  navike zarad boljeg osećaja u organizmu, pri tom ne pazeći šta jedete, onda ste sasvim 
         sigurno shvatili kako  nedostatak pravilne ishrane ne može baš ništa da nadomesti.
         Ali, redovno treniram, spavam osam sati dnevno…?
         Ustvari, nijedan trening nema efekta ukoliko posle njega jedete nezdravo, a redovno spavanje koje se ističe kao vrlo važno za celokupno zdravlje vam neće
          pružiti svežinu u licu i odmoran osećaj ako nedostaju vitamini koji se unose isključivo kroz zdravu ishranu.
           </p>
-          <button id="button" class="ui-state-default ui-corner-all" border="1" ><b>Klikni me!</b></button>
+          <button id="button" class="btn btn-success ui-state-default ui-corner-all" type="button"  ><b>Klikni me!</b></button>
           
            
         
