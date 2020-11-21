@@ -43,8 +43,8 @@ body{
 {
     background-color: lemonchiffon;
 float: right;
-width: 360px;
-height: 327px;    
+width: 600px;
+height: 500px;    
 }
 
 
@@ -54,7 +54,7 @@ height: 327px;
 
 .nav1{
     height: 65px;
-    background-color: rgba(243, 164, 74, 0.521);
+    background-color:rgba(243, 164, 74, 0.521);
     /* position: sticky; */
     top: 0;
     /* float: left; */
@@ -67,7 +67,7 @@ height: 327px;
 }
 .nav1 .naziv{
     float: left;
-    width: 40%; 
+    width: 20%; 
     font-size: 30px;
     color: white;
     text-align: center;
@@ -92,4 +92,12 @@ height: 327px;
     text-decoration: underline;
 }
 
+.kraj {
+    float: left;
+}
+#sajtovi a{
+    float: right;
+    font-size:20px;
+    font-weight: bold;
+}
 
